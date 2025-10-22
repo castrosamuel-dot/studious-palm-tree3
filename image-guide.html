@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Placeholder Generator</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+       background: #0a0a0a;
+            color: #ffffff;
+         padding: 2rem;
+          max-width: 1200px;
+   margin: 0 auto;
+ }
+        h1 {
+         color: #0066ff;
+      margin-bottom: 2rem;
+     }
+      .instructions {
+            background: #1a1a1a;
+            padding: 1.5rem;
+            border-radius: 8px;
+      margin-bottom: 2rem;
+  border: 1px solid #2a2a2a;
+   }
+   .grid {
+ display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 2rem;
+            margin-top: 2rem;
+      }
+        .placeholder {
+         background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+     border: 1px solid #2a2a2a;
+         border-radius: 8px;
+       overflow: hidden;
+        }
+        .placeholder-image {
+  width: 100%;
+   aspect-ratio: 16 / 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      background: linear-gradient(135deg, #0a1628 0%, #1a1a3a 100%);
+        color: #0066ff;
+    font-size: 1.5rem;
+          font-weight: 700;
+      text-align: center;
+            padding: 2rem;
+     }
+     .placeholder-info {
+       padding: 1rem;
+     }
+ .placeholder-title {
+      font-weight: 600;
+         margin-bottom: 0.5rem;
+ }
+        .placeholder-dimensions {
+            color: #b8b8b8;
+  font-size: 0.875rem;
+        }
+        .download-section {
+       background: #1a1a1a;
+ padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+    border: 1px solid #2a2a2a;
+    }
+        .sources {
+        display: grid;
+          gap: 1rem;
+  margin-top: 1rem;
+ }
+        .source-link {
+display: block;
+padding: 1rem;
+background: #0a0a0a;
+            border: 1px solid #2a2a2a;
+          border-radius: 4px;
+   color: #0066ff;
+       text-decoration: none;
+        transition: all 0.3s ease;
+        }
+        .source-link:hover {
+            background: #0066ff;
+        color: white;
+            transform: translateY(-2px);
+        }
+     code {
+      background: #0a0a0a;
+         padding: 0.2rem 0.5rem;
+ border-radius: 4px;
+            color: #0066ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>?? Image Placeholder Guide</h1>
+    
+    <div class="instructions">
+        <h2>Instructions</h2>
+     <p>Your landing page needs 8 images. Below are the specifications and recommended sources.</p>
+        <p><strong>Quick tip:</strong> You can temporarily use placeholder services like <code>https://placehold.co/</code> or the suggested sources below.</p>
+    </div>
+
+    <h2>Required Images</h2>
+    
+    <div class="grid">
+        <div class="placeholder">
+          <div class="placeholder-image">
+    1920×1080
+  </div>
+            <div class="placeholder-info">
+                <div class="placeholder-title">hero-car.jpg</div>
+             <div class="placeholder-dimensions">Recommended: 1920×1080px | 16:9 aspect ratio</div>
+       <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+          Main hero section image. Should be a high-quality 3D rendered sports car or architectural visualization.
+ </p>
+         </div>
+        </div>
+
+<div class="placeholder">
+        <div class="placeholder-image">
+                1280×720
+    </div>
+<div class="placeholder-info">
+      <div class="placeholder-title">case-study-1.jpg</div>
+     <div class="placeholder-dimensions">Recommended: 1280×720px | 16:9 aspect ratio</div>
+  <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+    Interior visualization for featured case studies section.
+      </p>
+         </div>
+        </div>
+
+        <div class="placeholder">
+         <div class="placeholder-image">
+        1280×720
+            </div>
+            <div class="placeholder-info">
+     <div class="placeholder-title">case-study-2.jpg</div>
+    <div class="placeholder-dimensions">Recommended: 1280×720px | 16:9 aspect ratio</div>
+        <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+   Architectural visualization for featured case studies section.
+      </p>
+    </div>
+</div>
+
+        <div class="placeholder">
+            <div class="placeholder-image">
+      1200×800
+            </div>
+          <div class="placeholder-info">
+        <div class="placeholder-title">architecture-demo.jpg</div>
+            <div class="placeholder-dimensions">Recommended: 1200×800px | Landscape orientation</div>
+    <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+          Architecture & real estate section showcase image.
+          </p>
+    </div>
+        </div>
+
+    <div class="placeholder">
+            <div class="placeholder-image">
+                1920×1080
+   </div>
+            <div class="placeholder-info">
+ <div class="placeholder-title">building-showcase.jpg</div>
+       <div class="placeholder-dimensions">Minimum: 1920×1080px | Wide landscape</div>
+<p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+           Large full-width showcase image. Architectural building or 3D visualization.
+         </p>
+  </div>
+        </div>
+
+        <div class="placeholder">
+     <div class="placeholder-image">
+    1280×720
+       </div>
+    <div class="placeholder-info">
+             <div class="placeholder-title">starter-1.jpg</div>
+                <div class="placeholder-dimensions">Recommended: 1280×720px | 16:9 aspect ratio</div>
+        <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+         Getting started card thumbnail.
+    </p>
+    </div>
+</div>
+
+        <div class="placeholder">
+       <div class="placeholder-image">
+                1280×720
+       </div>
+          <div class="placeholder-info">
+  <div class="placeholder-title">starter-2.jpg</div>
+    <div class="placeholder-dimensions">Recommended: 1280×720px | 16:9 aspect ratio</div>
+     <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+        Advanced tutorials card thumbnail.
+    </p>
+       </div>
+        </div>
+
+  <div class="placeholder">
+   <div class="placeholder-image">
+         1280×720
+            </div>
+     <div class="placeholder-info">
+   <div class="placeholder-title">starter-3.jpg</div>
+      <div class="placeholder-dimensions">Recommended: 1280×720px | 16:9 aspect ratio</div>
+    <p style="margin-top: 0.5rem; color: #b8b8b8; font-size: 0.875rem;">
+         Community showcase card thumbnail.
+  </p>
+        </div>
+        </div>
+    </div>
+
+    <div class="download-section">
+    <h2>?? Where to Find Images</h2>
+     <p>Here are recommended free image sources for high-quality architectural and 3D visualization images:</p>
+        
+        <div class="sources">
+      <a href="https://unsplash.com/s/photos/architecture" target="_blank" class="source-link">
+    <strong>Unsplash - Architecture</strong><br>
+ <span style="color: #b8b8b8; font-size: 0.875rem;">Free high-resolution photos. Search: architecture, 3D rendering, modern building, luxury car</span>
+            </a>
+       
+       <a href="https://www.pexels.com/search/architectural%20visualization/" target="_blank" class="source-link">
+          <strong>Pexels - Architectural Visualization</strong><br>
+    <span style="color: #b8b8b8; font-size: 0.875rem;">Free stock photos. Search: architectural visualization, real estate, interior design</span>
+   </a>
+            
+        <a href="https://pixabay.com/images/search/modern%20architecture/" target="_blank" class="source-link">
+        <strong>Pixabay - Modern Architecture</strong><br>
+   <span style="color: #b8b8b8; font-size: 0.875rem;">Free images & videos. Search: 3D architecture, modern architecture</span>
+       </a>
+     
+       <a href="https://placehold.co/" target="_blank" class="source-link">
+        <strong>Placehold.co - Temporary Placeholders</strong><br>
+    <span style="color: #b8b8b8; font-size: 0.875rem;">Quick placeholder images while you search for final images</span>
+       </a>
+            
+          <a href="http://www.twinmotion.com" target="_blank" class="source-link">
+                <strong>Twinmotion.com - Reference</strong><br>
+          <span style="color: #b8b8b8; font-size: 0.875rem;">View the original site for style inspiration (don't use their images)</span>
+     </a>
+        </div>
+     
+        <div style="margin-top: 2rem; padding: 1rem; background: #0a0a0a; border-radius: 4px;">
+            <h3>?? Pro Tips:</h3>
+  <ul style="color: #b8b8b8; line-height: 1.8;">
+ <li>Download images at least 1920px wide for best quality</li>
+                <li>Choose images with similar color tones (dark, professional)</li>
+     <li>Compress images before uploading (use tinypng.com)</li>
+    <li>Maintain consistent aspect ratios for cleaner look</li>
+    <li>Consider using images with blue/teal tones to match the theme</li>
+ </ul>
+      </div>
+    </div>
+
+    <div style="margin-top: 3rem; padding: 2rem; background: #1a1a1a; border: 2px dashed #0066ff; border-radius: 8px; text-align: center;">
+        <h3 style="color: #0066ff;">Quick Start Option</h3>
+        <p style="color: #b8b8b8;">Want to see the page immediately? Use placeholder URLs in your HTML:</p>
+     <code style="display: block; margin-top: 1rem; padding: 1rem;">
+    src="https://placehold.co/1920x1080/1a1a3a/0066ff?text=Hero+Image"
+        </code>
+        <p style="color: #b8b8b8; margin-top: 1rem; font-size: 0.875rem;">
+            Replace with real images when ready!
+        </p>
+    </div>
+
+</body>
+</html>
