@@ -169,6 +169,31 @@ window.addEventListener('scroll', () => {
 });
 
 // ==================== 
+// HERO IMAGE SCROLL EFFECTS (blur and fade)
+// ==================== 
+
+window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    const heroImage = document.querySelector('.hero-image');
+    
+    if (heroImage) {
+  // Calculate scroll progress (0 to 1 over first 600px of scroll)
+    const maxScroll = 600;
+     const scrollProgress = Math.min(scrolled / maxScroll, 1);
+        
+        // Calculate blur amount (0 to 10px)
+        const blurAmount = scrollProgress * 10;
+        
+        // Calculate opacity (1 to 0.2)
+        const opacity = 1 - (scrollProgress * 0.8);
+        
+        // Apply effects
+    heroImage.style.filter = `blur(${blurAmount}px) brightness(${1 - scrollProgress * 0.5})`;
+        heroImage.style.opacity = opacity;
+    }
+});
+
+// ==================== 
 // HANDLE EXTERNAL LINKS 
 // ==================== 
 
