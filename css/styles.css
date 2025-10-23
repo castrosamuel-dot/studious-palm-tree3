@@ -554,7 +554,7 @@ align-items: center;
 
 .large-showcase .container {
     width: 100%;
- padding: 0;
+    padding: 0;
     max-width: 100%;
 }
 
@@ -568,6 +568,14 @@ align-items: center;
     border-radius: 0;
     box-shadow: var(--shadow-lg);
     background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    filter: blur(20px);
+    opacity: 0.3;
+    transition: filter 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.large-showcase img.unblurred {
+    filter: blur(0px);
+    opacity: 1;
 }
 
 /* ==================== 

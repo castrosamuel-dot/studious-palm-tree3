@@ -212,6 +212,34 @@ console.log('%c?? Twinmotion Landing Page', 'font-size: 20px; font-weight: bold;
 console.log('%cBuilt with modern web technologies', 'font-size: 12px; color: #666;');
 
 // ==================== 
+// LARGE SHOWCASE BLUR/UNBLUR ON SCROLL
+// ==================== 
+
+const largeShowcaseObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        const img = entry.target.querySelector('img');
+      if (img) {
+          if (entry.isIntersecting) {
+     // When section is in view, unblur the image
+      img.classList.add('unblurred');
+ } else {
+        // When scrolling past, blur again
+     img.classList.remove('unblurred');
+}
+    }
+    });
+}, {
+    threshold: 0.3, // Trigger when 30% of the section is visible
+    rootMargin: '-10% 0px -10% 0px' // Add some margin for smoother transition
+});
+
+// Observe the large showcase section
+const largeShowcaseSection = document.querySelector('.large-showcase');
+if (largeShowcaseSection) {
+    largeShowcaseObserver.observe(largeShowcaseSection);
+}
+
+// ==================== 
 // PERFORMANCE MONITORING 
 // ==================== 
 
