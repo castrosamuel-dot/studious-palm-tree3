@@ -1,6 +1,6 @@
-# Twinmotion-Inspired Landing Page
+# Five-Star AudioVisual Services - Recall ERS Landing Page
 
-A modern, responsive landing page inspired by the Twinmotion website design featuring real-time 3D visualization software.
+A modern, responsive landing page featuring professional event recording and streaming services with video-on-demand capabilities.
 
 ## ?? Features
 
@@ -14,7 +14,7 @@ A modern, responsive landing page inspired by the Twinmotion website design feat
 
 ```
 studious-palm-tree3/
-??? index.html          # Main HTML file
+??? index.html # Main HTML file
 ??? css/
 ?   ??? styles.css      # All stylesheet definitions
 ??? js/
@@ -83,14 +83,14 @@ studious-palm-tree3/
 - Social media links
 - Legal links and copyright
 
-## ??? Image Placeholders
+## ?? Image Placeholders
 
 You need to add the following images to the `images/` folder:
 
 1. **hero-car.jpg** - Main hero image (recommended: 1920x1080px)
-2. **case-study-1.jpg** - Interior visualization (16:9 aspect ratio)
-3. **case-study-2.jpg** - Architectural visualization (16:9 aspect ratio)
-4. **architecture-demo.jpg** - Architecture section image (landscape)
+2. **case-study-1.jpg** - Event visualization (16:9 aspect ratio)
+3. **case-study-2.jpg** - Webinar or presentation visualization (16:9 aspect ratio)
+4. **architecture-demo.jpg** - Operations section image (landscape)
 5. **building-showcase.jpg** - Large showcase image (1920x1080px minimum)
 6. **starter-1.jpg** - Getting started thumbnail (16:9 aspect ratio)
 7. **starter-2.jpg** - Advanced tutorials thumbnail (16:9 aspect ratio)
@@ -98,9 +98,8 @@ You need to add the following images to the `images/` folder:
 
 ### Where to Find Images:
 
-- **Unsplash**: https://unsplash.com/ (search: architecture, 3D rendering, modern building)
-- **Pexels**: https://pexels.com/ (search: architectural visualization, luxury car, real estate)
-- **Reference**: http://www.twinmotion.com for similar imagery style
+- **Unsplash**: https://unsplash.com/ (search: professional events, webinars, presentations, conference)
+- **Pexels**: https://pexels.com/ (search: business events, live streaming, video production)
 
 ## ?? Customization Guide
 
@@ -196,10 +195,6 @@ npx http-server
 ## ?? License
 
 This template is free to use for personal and commercial projects.
-
-## ?? Credits
-
-Design inspired by: [Twinmotion](http://www.twinmotion.com)
 
 ---
 

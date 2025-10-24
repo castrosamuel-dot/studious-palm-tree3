@@ -6,20 +6,20 @@ This folder should contain the following images for the landing page:
 
 1. **hero-car.jpg** (1920x1080px recommended)
    - Main hero section image
-   - Should be a high-quality 3D rendered sports car or architectural visualization
+   - Should be a high-quality professional event or presentation image
    
 2. **case-study-1.jpg** (16:9 aspect ratio)
-   - Interior visualization for featured case studies section
+   - Event or webinar visualization for featured case studies section
    
 3. **case-study-2.jpg** (16:9 aspect ratio)
-   - Architectural visualization for featured case studies section
+   - Professional presentation visualization for featured case studies section
    
 4. **architecture-demo.jpg** (landscape orientation)
-   - Architecture & real estate section showcase image
+   - Operations section showcase image
    
 5. **building-showcase.jpg** (1920x1080px minimum)
    - Large full-width showcase image
-   - Architectural building or 3D visualization
+   - Professional event or facility image
    
 6. **starter-1.jpg** (16:9 aspect ratio)
    - Getting started card thumbnail
@@ -34,23 +34,20 @@ This folder should contain the following images for the landing page:
 
 ### Free Stock Photos:
 - **Unsplash**: https://unsplash.com/
-  - Search: "architecture", "3D rendering", "modern building", "luxury car"
+  - Search: "professional events", "conference", "webinar", "business presentation"
   
 - **Pexels**: https://pexels.com/
-  - Search: "architectural visualization", "real estate", "interior design"
+  - Search: "corporate events", "video production", "live streaming", "business meeting"
   
 - **Pixabay**: https://pixabay.com/
-  - Search: "3D architecture", "modern architecture"
-
-### Reference:
-- Visit http://www.twinmotion.com for similar imagery style and inspiration
+  - Search: "professional events", "corporate presentation"
 
 ## Image Guidelines:
 
 - **Format**: JPG or PNG
 - **Quality**: High resolution (at least 1920px width for large images)
 - **Style**: Modern, professional, dark-themed to match the design
-- **Subject**: Architecture, 3D visualizations, real estate, luxury vehicles
+- **Subject**: Professional events, presentations, corporate settings, technology
 - **Tone**: Professional, clean, high-tech
 
 ## Temporary Placeholder:
